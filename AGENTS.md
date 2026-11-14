@@ -1,0 +1,3 @@
+- Use `agents.mcp.MCPServerStreamableHttp`; do not replace it with raw HTTP.
+- Fixture data is synthetic and does not prove hosted Weavz or model behavior.
+- Keep `.env` and tokens out of git.
