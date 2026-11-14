@@ -1,4 +1,21 @@
-# OpenAI Agents SDK + Weavz MCP
+# OpenAI Agents SDK (Python) MCP integration examples with Weavz
+
+<!-- weavz:discovery:start -->
+
+Connect OpenAI Agents SDK (Python) to Slack, Gmail, GitHub and Notion through a remote Weavz Model Context Protocol (MCP) server. Use the native MCP adapter, then try the app setup recipes with your configured connections.
+
+App setup recipes:
+
+- [Slack MCP with OpenAI Agents SDK Python](docs/app-recipes.md#slack-mcp-with-openai-agents-sdk-python)
+- [Gmail MCP with OpenAI Agents SDK Python](docs/app-recipes.md#gmail-mcp-with-openai-agents-sdk-python)
+- [GitHub MCP with OpenAI Agents SDK Python](docs/app-recipes.md#github-mcp-with-openai-agents-sdk-python)
+- [Notion MCP with OpenAI Agents SDK Python](docs/app-recipes.md#notion-mcp-with-openai-agents-sdk-python)
+
+The framework consumes app tools from your configured Weavz MCP server. App recipes require your own app connections; automated checks use synthetic records.
+
+[MCP app and framework directory](https://github.com/weavz/mcp-examples/blob/main/docs/integrations.md) · [All examples](https://github.com/weavz/mcp-examples) · [Weavz MCP guide](https://weavz.io/docs/guides/agent-framework-examples)
+
+<!-- weavz:discovery:end -->
 
 This starter uses the Agents SDK's native `MCPServerStreamableHttp` adapter. Set up a custom Weavz MCP server in Tool Mode or Code Mode first. The mode is a server-side setting; `WEAVZ_MCP_MODE` validates the advertised tool names and cannot switch a remote server.
 
